@@ -1,0 +1,1094 @@
+{
+  "0": {
+    "width": 32,
+    "height": 32,
+    "kind": "TIMP",
+    "source": "native/DATA.BIN/0000/p_star.tip",
+    "png": "textures/DATA.BIN/0000/p_star.png"
+  },
+  "1": {
+    "width": 64,
+    "height": 64,
+    "kind": "TIMP",
+    "source": "native/DATA.BIN/0000/fd_b01.tip",
+    "png": "textures/DATA.BIN/0000/fd_b01.png"
+  },
+  "2": {
+    "width": 64,
+    "height": 64,
+    "kind": "TIMP",
+    "source": "native/DATA.BIN/0000/fd_b02.tip",
+    "png": "textures/DATA.BIN/0000/fd_b02.png"
+  },
+  "3": {
+    "width": 64,
+    "height": 64,
+    "kind": "TIMP",
+    "source": "native/DATA.BIN/0000/coin_picori.tip",
+    "png": "textures/DATA.BIN/0000/coin_picori.png"
+  },
+  "5": {
+    "width": 32,
+    "height": 32,
+    "kind": "TIMP",
+    "source": "native/DATA.BIN/0000/w01.tip",
+    "png": "textures/DATA.BIN/0000/w01.png"
+  },
+  "6": {
+    "width": 32,
+    "height": 32,
+    "kind": "TIMP",
+    "source": "native/DATA.BIN/0000/m01.tip",
+    "png": "textures/DATA.BIN/0000/m01.png"
+  },
+  "8": {
+    "width": 64,
+    "height": 64,
+    "kind": "TIMP",
+    "source": "native/DATA.BIN/0000/fd_mask01.tip",
+    "png": "textures/DATA.BIN/0000/fd_mask01.png"
+  },
+  "9": {
+    "width": 64,
+    "height": 64,
+    "kind": "TIMP",
+    "source": "native/DATA.BIN/0000/fd_mask01.tip",
+    "png": "textures/DATA.BIN/0000/fd_mask01.png"
+  },
+  "11": {
+    "width": 64,
+    "height": 64,
+    "kind": "TIMP",
+    "source": "native/DATA.BIN/0000/fd_mo06.tip",
+    "png": "textures/DATA.BIN/0000/fd_mo06.png"
+  },
+  "12": {
+    "width": 64,
+    "height": 64,
+    "kind": "TIMP",
+    "source": "native/DATA.BIN/0000/fd_mo04.tip",
+    "png": "textures/DATA.BIN/0000/fd_mo04.png"
+  },
+  "13": {
+    "width": 64,
+    "height": 64,
+    "kind": "TIMP",
+    "source": "native/DATA.BIN/0000/fd_mo04.tip",
+    "png": "textures/DATA.BIN/0000/fd_mo04.png"
+  },
+  "14": {
+    "width": 64,
+    "height": 64,
+    "kind": "TIMP",
+    "source": "native/DATA.BIN/0000/fd_mo03.tip",
+    "png": "textures/DATA.BIN/0000/fd_mo03.png"
+  },
+  "15": {
+    "width": 64,
+    "height": 64,
+    "kind": "TIMP",
+    "source": "native/DATA.BIN/0000/fd_mo02.tip",
+    "png": "textures/DATA.BIN/0000/fd_mo02.png"
+  },
+  "16": {
+    "width": 64,
+    "height": 64,
+    "kind": "TIMP",
+    "source": "native/DATA.BIN/0000/fd_mo01.tip",
+    "png": "textures/DATA.BIN/0000/fd_mo01.png"
+  },
+  "20": {
+    "width": 64,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0000/stageclear.blv",
+    "offset": 223748,
+    "sourceName": "D:/petton/svn/petton_data/objects/screenanim/stageclear3/sourceimages/gameui_logo_bee.tip",
+    "rgba": "blv-textures/f86ded475014c2c20b2724b60e81bfd23df9b37326fac9ecc0f0577fe6663d7f.rgba"
+  },
+  "21": {
+    "width": 64,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0000/stageclear.blv",
+    "offset": 223868,
+    "sourceName": "D:/petton/svn/petton_data/objects/screenanim/stageclear3/sourceimages/imuimui.tip",
+    "rgba": "blv-textures/7691ad6a68aaabdcd13ff4e14a3f07b9450a0ec849c5401eb4a7d3be3af35562.rgba"
+  },
+  "22": {
+    "width": 32,
+    "height": 32,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0000/stageclear.blv",
+    "offset": 224320,
+    "sourceName": "D:/petton/svn/petton_data/objects/screenanim/stageclear3/sourceimages/itime.tip",
+    "rgba": "blv-textures/49bbfb7b61d2d1b81b73619b0b280da30a127a6d95fea0e36daf2fa7c3e681a5.rgba"
+  },
+  "23": {
+    "width": 8,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0000/stageclear.blv",
+    "offset": 224092,
+    "sourceName": "D:/petton/svn/petton_data/objects/screenanim/stageclear3/sourceimages/islash.tip",
+    "rgba": "blv-textures/24e8d6250be121159efd55d7519a710aa3588b5094cfc925909f4719031101c6.rgba"
+  },
+  "24": {
+    "width": 8,
+    "height": 8,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0000/stageclear.blv",
+    "offset": 224428,
+    "sourceName": "D:/petton/svn/petton_data/objects/screenanim/stageclear3/sourceimages/maru.tip",
+    "rgba": "blv-textures/c553e779ebd91c99d3537ca7a13ecb1ad1cbb339555a7afd9caa0a6e7ce94251.rgba"
+  },
+  "28": {
+    "width": 64,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0000/stageclear.blv",
+    "offset": 252860,
+    "sourceName": "D:/petton/svn/petton_data/stage/stageclear/sourceimages/cap.tga",
+    "rgba": "blv-textures/34cf286aca5e83e7586a978d5fc978dfa5d24dd4ca950947950cd36d83ff098b.rgba"
+  },
+  "29": {
+    "width": 32,
+    "height": 32,
+    "kind": "TIMP",
+    "source": "native/DATA.BIN/0000/coin_item.tip",
+    "png": "textures/DATA.BIN/0000/coin_item.png"
+  },
+  "30": {
+    "width": 64,
+    "height": 64,
+    "kind": "TIMP",
+    "source": "native/DATA.BIN/0000/coin_body.tip",
+    "png": "textures/DATA.BIN/0000/coin_body.png"
+  },
+  "31": {
+    "width": 32,
+    "height": 16,
+    "kind": "TIMP",
+    "source": "native/DATA.BIN/0000/fd_arrow.tip",
+    "png": "textures/DATA.BIN/0000/fd_arrow.png"
+  },
+  "33": {
+    "width": 32,
+    "height": 32,
+    "kind": "TIMP",
+    "source": "native/DATA.BIN/0000/p_sikaku.tip",
+    "png": "textures/DATA.BIN/0000/p_sikaku.png"
+  },
+  "34": {
+    "width": 64,
+    "height": 64,
+    "kind": "TIMP",
+    "source": "native/DATA.BIN/0000/coin_eye.tip",
+    "png": "textures/DATA.BIN/0000/coin_eye.png"
+  },
+  "35": {
+    "width": 64,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0018/black.blv",
+    "offset": 89940,
+    "sourceName": "C:/cygwin/usr/local/psp/petton_svn/petton_data/objects/global/petton/sourceimages/pe_head00.tga",
+    "rgba": "blv-textures/f039eaf37dda5aa8bcc4c0f55d752664c479a5e4f426c4869a1e0272e42867d6.rgba"
+  },
+  "36": {
+    "width": 32,
+    "height": 32,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0018/black.blv",
+    "offset": 91136,
+    "sourceName": "C:/cygwin/usr/local/psp/petton_svn/petton_data/objects/global/petton/sourceimages/pe_y_shirome.tga",
+    "rgba": "blv-textures/8ade98e3c4a596514d801e3b2ae5eeaa4164f200972d03553069dcd95c3a8120.rgba"
+  },
+  "37": {
+    "width": 32,
+    "height": 32,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0018/black.blv",
+    "offset": 90088,
+    "sourceName": "C:/cygwin/usr/local/psp/petton_svn/petton_data/objects/global/petton/sourceimages/pe_y_eye.tga",
+    "rgba": "blv-textures/eb5a980064395ca88ecf2869f7d8ee583955e709f22be6f7057b813af68c3636.rgba"
+  },
+  "38": {
+    "width": 32,
+    "height": 32,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0018/black.blv",
+    "offset": 88188,
+    "sourceName": "C:/cygwin/usr/local/psp/petton_svn/petton_data/objects/global/black/sourceimages/pe_k_mabuta.00.tga",
+    "rgba": "blv-textures/d0b6ed6b2c9aee66b76ae159dccabf61fb88bb2b6616fe8dad3e69afb1aafc84.rgba"
+  },
+  "39": {
+    "width": 32,
+    "height": 32,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0018/black.blv",
+    "offset": 88188,
+    "sourceName": "C:/cygwin/usr/local/psp/petton_svn/petton_data/objects/global/black/sourceimages/pe_k_mabuta.00.tga",
+    "rgba": "blv-textures/d0b6ed6b2c9aee66b76ae159dccabf61fb88bb2b6616fe8dad3e69afb1aafc84.rgba"
+  },
+  "40": {
+    "width": 64,
+    "height": 32,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0018/black.blv",
+    "offset": 91284,
+    "sourceName": "C:/cygwin/usr/local/psp/petton_svn/petton_data/objects/global/petton/sourceimages/pe_ye_mo.00.tga",
+    "rgba": "blv-textures/376aa6dcc77ab14ce45015f61b3a917b62a356c47ad230d97da1ef70403e95a9.rgba"
+  },
+  "41": {
+    "width": 64,
+    "height": 32,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0018/black.blv",
+    "offset": 91728,
+    "sourceName": "C:/cygwin/usr/local/psp/petton_svn/petton_data/objects/global/petton/sourceimages/pe_ye_mo.07.tga",
+    "rgba": "blv-textures/befb08f9f9507479cb52d26c919772953049c5cf80d6b73130dafbcc47d459ef.rgba"
+  },
+  "42": {
+    "width": 64,
+    "height": 32,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0018/black.blv",
+    "offset": 91432,
+    "sourceName": "C:/cygwin/usr/local/psp/petton_svn/petton_data/objects/global/petton/sourceimages/pe_ye_mo.03.tga",
+    "rgba": "blv-textures/e3706bf8ade72661231cdc23ada9e4c1801d998332edd93f5da1367406e8da65.rgba"
+  },
+  "43": {
+    "width": 64,
+    "height": 32,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0018/black.blv",
+    "offset": 91580,
+    "sourceName": "C:/cygwin/usr/local/psp/petton_svn/petton_data/objects/global/petton/sourceimages/pe_ye_mo.06.tga",
+    "rgba": "blv-textures/adc9af22dc8cf62339ad2d6e40c4ef5800e96d0683de1e9e9c630c18ad516763.rgba"
+  },
+  "44": {
+    "width": 32,
+    "height": 32,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0018/black.blv",
+    "offset": 90384,
+    "sourceName": "C:/cygwin/usr/local/psp/petton_svn/petton_data/objects/global/petton/sourceimages/pe_y_mabuta.01.tga",
+    "rgba": "blv-textures/921458abc9ce6dcfa0d3fab8d40f77b953a621bbd7fc855d12d9d15b472df3ed.rgba"
+  },
+  "45": {
+    "width": 32,
+    "height": 32,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0018/black.blv",
+    "offset": 90536,
+    "sourceName": "C:/cygwin/usr/local/psp/petton_svn/petton_data/objects/global/petton/sourceimages/pe_y_mabuta.02.tga",
+    "rgba": "blv-textures/907e05108f3a7b09aaf07471d80f2035874c53f2359f6adc82220d0368094d76.rgba"
+  },
+  "46": {
+    "width": 32,
+    "height": 32,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0018/black.blv",
+    "offset": 90688,
+    "sourceName": "C:/cygwin/usr/local/psp/petton_svn/petton_data/objects/global/petton/sourceimages/pe_y_mabuta.03.tga",
+    "rgba": "blv-textures/b8ee1dd503aabbe83e6b4a5404c6a09dd5eacf9be822fa1649fa8316295468c9.rgba"
+  },
+  "47": {
+    "width": 32,
+    "height": 32,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0018/black.blv",
+    "offset": 90840,
+    "sourceName": "C:/cygwin/usr/local/psp/petton_svn/petton_data/objects/global/petton/sourceimages/pe_y_mabuta.04.tga",
+    "rgba": "blv-textures/fc2a5b5d72da5ae1f92d694c0bb4f31aa8ded4d25b869728fbdc4a534a1ed456.rgba"
+  },
+  "48": {
+    "width": 64,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0023/petton.blv",
+    "offset": 71536,
+    "sourceName": "C:/cygwin/usr/local/psp/petton_svn/petton_data/objects/global/petton/sourceimages/pe_head01.tga",
+    "rgba": "blv-textures/4baf8403628c56c032bde33c91f88845a0595401255295071ed2c125e8fcb12c.rgba"
+  },
+  "49": {
+    "width": 64,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0023/petton.blv",
+    "offset": 71684,
+    "sourceName": "C:/cygwin/usr/local/psp/petton_svn/petton_data/objects/global/petton/sourceimages/pe_head02.tga",
+    "rgba": "blv-textures/9886acb0716bc82e5d57ac3fc35252e7d3c3a08af6698e26fe514e57c4c07a99.rgba"
+  },
+  "50": {
+    "width": 64,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0023/petton.blv",
+    "offset": 71832,
+    "sourceName": "C:/cygwin/usr/local/psp/petton_svn/petton_data/objects/global/petton/sourceimages/pe_head03.tga",
+    "rgba": "blv-textures/2514c8ed1ba404c2a376afa2a7d7d4507184a718b6119b5a5c7bcc296b834520.rgba"
+  },
+  "51": {
+    "width": 128,
+    "height": 256,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0071/payload.bin",
+    "offset": 2601540,
+    "sourceName": "D:\\petton\\svn/petton_data/stage/leveltools_2/LT_petton/sourceimages/hs_bg_hana.tga",
+    "rgba": "blv-textures/11e6dd02278a80317986f3a0c0a858c1e8213ed048a1596423f6934bb00759d8.rgba"
+  },
+  "52": {
+    "width": 512,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4595324,
+    "sourceName": "D:\\petton\\Svn/petton_data/stage/leveltools_2/LT_petton/sourceimages/hs_obi001.tga",
+    "rgba": "blv-textures/513b3b9ad02c33dddc26055c70388073599cbe17c9ab3503f5068600d0e85652.rgba"
+  },
+  "53": {
+    "width": 512,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4595460,
+    "sourceName": "D:\\petton\\Svn/petton_data/stage/leveltools_2/LT_petton/sourceimages/hs_obi002.tga",
+    "rgba": "blv-textures/e2bcb83c38322b39f87dc3fec39b6be43e444bab83b22ca5784f55e4eebbf584.rgba"
+  },
+  "54": {
+    "width": 512,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4595596,
+    "sourceName": "D:\\petton\\Svn/petton_data/stage/leveltools_2/LT_petton/sourceimages/hs_obi003.tga",
+    "rgba": "blv-textures/51ba530a35aa8a23e025693e17cb36e3e02bb98c0fca7856ed3efc4dcc37cc91.rgba"
+  },
+  "55": {
+    "width": 128,
+    "height": 128,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4596908,
+    "sourceName": "D:/petton/svn/petton_data/stage/title_shop/sourceimages/sk_bg_sigemi_purple_s.tga",
+    "rgba": "blv-textures/bc50d469468d1e6e85f02910a4eaeb90b7ff2be212d064b5d770973e73b832fc.rgba"
+  },
+  "56": {
+    "width": 128,
+    "height": 128,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4596772,
+    "sourceName": "D:/petton/svn/petton_data/stage/title_shop/sourceimages/sk_bg_sigemi_blue_s.tga",
+    "rgba": "blv-textures/8f22b9e8b27f9c938e0bfaefc45751adc4f0b606d7e05e5f370fe205c9cbb145.rgba"
+  },
+  "57": {
+    "width": 32,
+    "height": 32,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4595192,
+    "sourceName": "D:\\petton\\Svn/petton_data/stage/leveltools_2/LT_petton/sourceimages/hs_hanabira.tga",
+    "rgba": "blv-textures/8a2d165cc1eae72b411e17451e10d0e3e3e9371fd5b5bdbd7494f974b932f5a2.rgba"
+  },
+  "58": {
+    "width": 64,
+    "height": 256,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4595732,
+    "sourceName": "D:\\petton\\Svn/petton_data/stage/leveltools_2\\LT_petton\\sourceimages\\kaze_w01.tga",
+    "rgba": "blv-textures/d77901850220be5cba45bca230933ae6231bb5fe0b299247be60be6101ac58f1.rgba"
+  },
+  "59": {
+    "width": 64,
+    "height": 256,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4595868,
+    "sourceName": "D:\\petton\\Svn/petton_data/stage/leveltools_2\\LT_petton\\sourceimages\\kaze_w02.tga",
+    "rgba": "blv-textures/89cac026a9d2463735c1fc2c1e87135ac8863d9897c8f16d2282dbe367f34c29.rgba"
+  },
+  "60": {
+    "width": 64,
+    "height": 256,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4596004,
+    "sourceName": "D:\\petton\\Svn/petton_data/stage/leveltools_2\\LT_petton\\sourceimages\\kaze_w03.tga",
+    "rgba": "blv-textures/ee1f3e91fab19bfffb9fd1ca9517384a2d78dead0227280303ad6ab404454027.rgba"
+  },
+  "61": {
+    "width": 256,
+    "height": 128,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0071/payload.bin",
+    "offset": 2600836,
+    "sourceName": "D:\\petton\\svn/petton_data/stage/leveltools_2/LT_petton/sourceimages/flower_a_hana.tga",
+    "rgba": "blv-textures/6e92234ae047409e800ee97b43833ba1ceb4393b6df732953742ee4ad6b93267.rgba"
+  },
+  "62": {
+    "width": 128,
+    "height": 128,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4597588,
+    "sourceName": "D:/petton/svn/petton_data/stage/title_shop/sourceimages/title_bg_grass_a.tga",
+    "rgba": "blv-textures/7d8d638e4e412d53f0adf2050ff7209b00bd0f9cff7a78785e20bd086233776c.rgba"
+  },
+  "63": {
+    "width": 64,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4597048,
+    "sourceName": "D:/petton/svn/petton_data/stage/title_shop/sourceimages/sk_bg_warabi_a_s.tga",
+    "rgba": "blv-textures/7eded915d5aaad76ac37986abf70940ce00c62e3a3bc4ff98705732859ef30a9.rgba"
+  },
+  "64": {
+    "width": 32,
+    "height": 16,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0071/payload.bin",
+    "offset": 2601124,
+    "sourceName": "D:\\petton\\svn/petton_data/stage/leveltools_2/LT_petton/sourceimages/flower_a_kuki.tga",
+    "rgba": "blv-textures/b6093102d27f52e696fd20b1814c068333f0c4a6308115aa1d58f38fe4e570ed.rgba"
+  },
+  "65": {
+    "width": 256,
+    "height": 128,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0071/payload.bin",
+    "offset": 2600980,
+    "sourceName": "D:\\petton\\svn/petton_data/stage/leveltools_2/LT_petton/sourceimages/flower_a_happa.tga",
+    "rgba": "blv-textures/ccb6b2b6d99db824232e4aa15a01d511dc87ad1ec39033139caf1be3c60a5441.rgba"
+  },
+  "66": {
+    "width": 128,
+    "height": 128,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4597868,
+    "sourceName": "D:/petton/svn/petton_data/stage/title_shop/sourceimages/title_bg_mitsuba_brown.tga",
+    "rgba": "blv-textures/dcbd4a3f52b46407823dce701ffd88b8267bbc73c688e932996c1f57e16f6fe7.rgba"
+  },
+  "68": {
+    "width": 32,
+    "height": 256,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0041/payload.bin",
+    "offset": 3149668,
+    "sourceName": "D:/petton/svn/petton_data/objects/stageitem/shukuhou/sourceimages/gradflower_kuki.tga",
+    "rgba": "blv-textures/019c918b3dcb7d2d9ce4936b2ac616dcd2bb4549c2232ab7552277a7ea12d06d.rgba"
+  },
+  "69": {
+    "width": 128,
+    "height": 128,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4598408,
+    "sourceName": "D:/petton/svn/petton_data/stage/title_shop/sourceimages/title_hana_all_re_s_ims.tga",
+    "rgba": "blv-textures/68717c2e61dfe1df7702fbfd49a9cc13d208a9bc0294cddb51d3dce387ce3260.rgba"
+  },
+  "70": {
+    "width": 128,
+    "height": 128,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0041/payload.bin",
+    "offset": 3149804,
+    "sourceName": "D:/petton/svn/petton_data/objects/stageitem/shukuhou/sourceimages/gradflower.tga",
+    "rgba": "blv-textures/1122b14b754bd936b8c47c8cbbfc1e516966b7db98685856d0f2f4f056707f64.rgba"
+  },
+  "71": {
+    "width": 512,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4595324,
+    "sourceName": "D:\\petton\\Svn/petton_data/stage/leveltools_2/LT_petton/sourceimages/hs_obi001.tga",
+    "rgba": "blv-textures/513b3b9ad02c33dddc26055c70388073599cbe17c9ab3503f5068600d0e85652.rgba"
+  },
+  "73": {
+    "width": 512,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4595460,
+    "sourceName": "D:\\petton\\Svn/petton_data/stage/leveltools_2/LT_petton/sourceimages/hs_obi002.tga",
+    "rgba": "blv-textures/e2bcb83c38322b39f87dc3fec39b6be43e444bab83b22ca5784f55e4eebbf584.rgba"
+  },
+  "74": {
+    "width": 256,
+    "height": 256,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0071/payload.bin",
+    "offset": 2602532,
+    "sourceName": "D:\\petton\\svn/petton_data/stage/leveltools_2/LT_petton/sourceimages/hs_flower_stage_base.tga",
+    "rgba": "blv-textures/938c0aa2bfe3a068eb5ecb9a1bca1d5d697696bc08849a55466c340e2dff5c28.rgba"
+  },
+  "75": {
+    "width": 512,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4595596,
+    "sourceName": "D:\\petton\\Svn/petton_data/stage/leveltools_2/LT_petton/sourceimages/hs_obi003.tga",
+    "rgba": "blv-textures/51ba530a35aa8a23e025693e17cb36e3e02bb98c0fca7856ed3efc4dcc37cc91.rgba"
+  },
+  "76": {
+    "width": 32,
+    "height": 32,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4595192,
+    "sourceName": "D:\\petton\\Svn/petton_data/stage/leveltools_2/LT_petton/sourceimages/hs_hanabira.tga",
+    "rgba": "blv-textures/8a2d165cc1eae72b411e17451e10d0e3e3e9371fd5b5bdbd7494f974b932f5a2.rgba"
+  },
+  "77": {
+    "width": 128,
+    "height": 128,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4597724,
+    "sourceName": "D:/petton/svn/petton_data/stage/title_shop/sourceimages/title_bg_mitsuba_bordeaux.tga",
+    "rgba": "blv-textures/e9c5da428bbba7be8e6bca560ef34d2a919dd5e3bc5e68280876e1ecee1aefeb.rgba"
+  },
+  "78": {
+    "width": 32,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0001/pause.blv",
+    "offset": 154252,
+    "sourceName": "D:/petton/svn/petton_data/objects/muimui/muimuipause_muimui/sourceimages/muimui_newarm.tip",
+    "rgba": "blv-textures/d28800eff29895f9dcc9ebc6d61ef35590aa89523a1d9c56dfc4b5a5311d4880.rgba"
+  },
+  "79": {
+    "width": 32,
+    "height": 32,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0001/pause.blv",
+    "offset": 154132,
+    "sourceName": "D:/petton/svn/petton_data/objects/muimui/muimuipause_muimui/sourceimages/muimui_hair2.tip",
+    "rgba": "blv-textures/43a2c2ba3e523c47ce7742479148156343b5373af1ed34d0ce73a5afcfb469c0.rgba"
+  },
+  "80": {
+    "width": 64,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0001/pause.blv",
+    "offset": 154372,
+    "sourceName": "D:/petton/svn/petton_data/objects/muimui/muimuipause_muimui/sourceimages/muimui_newbody.tip",
+    "rgba": "blv-textures/981f04ea488afecda40ca83bc37fc01a221eaa473445d058be50a58646b203a4.rgba"
+  },
+  "81": {
+    "width": 16,
+    "height": 8,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0001/pause.blv",
+    "offset": 154620,
+    "sourceName": "D:/petton/svn/petton_data/objects/muimui/muimuipause_muimui/sourceimages/muimui_newmouseopen.tip",
+    "rgba": "blv-textures/787ead4b4d37ee329f8920122c25ee655c831dee2da9ab7d9b1fd602de50e673.rgba"
+  },
+  "82": {
+    "width": 16,
+    "height": 8,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0001/pause.blv",
+    "offset": 154492,
+    "sourceName": "D:/petton/svn/petton_data/objects/muimui/muimuipause_muimui/sourceimages/muimui_newmouseclose.tip",
+    "rgba": "blv-textures/7c4470915faf076fc7e938228806a74f895f150c8e1ea3230b2fc6e707868023.rgba"
+  },
+  "84": {
+    "width": 64,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0041/payload.bin",
+    "offset": 1564788,
+    "sourceName": "D:/petton/svn/petton_data/objects/muimui/muimui_front/sourceimages/muimui_hair2.tip",
+    "rgba": "blv-textures/e5924e15470dbcbbbbd34c70de9cabe12f2ff82fa91bc4da2966e9a52dcd0589.rgba"
+  },
+  "85": {
+    "width": 64,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0041/payload.bin",
+    "offset": 1564900,
+    "sourceName": "D:/petton/svn/petton_data/objects/muimui/muising/sourceimages/muibody.tip",
+    "rgba": "blv-textures/2affab4661fdededa88e02aedfca98529f4de70e6d8010d3a80908f9d8dc906e.rgba"
+  },
+  "86": {
+    "width": 16,
+    "height": 8,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0041/payload.bin",
+    "offset": 1565004,
+    "sourceName": "D:/petton/svn/petton_data/objects/muimui/muising/sourceimages/muimui_newmouseclose.tip",
+    "rgba": "blv-textures/b63fd9e27424d232f7314e8f6c226c4eec41d9ee027e6610496b01fc2ce1abeb.rgba"
+  },
+  "87": {
+    "width": 256,
+    "height": 128,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0059/payload.bin",
+    "offset": 2840420,
+    "sourceName": "D:/petton/svn/petton_data/objects/muimui/muimui_tutorial/sourceimages/muimuicount_fukidasiquad.tga",
+    "rgba": "blv-textures/1ba9716ba2ebb7fa728837bb9a0e0cb1afea3e535a3b5523d7c1ef79bd0c982a.rgba"
+  },
+  "88": {
+    "width": 32,
+    "height": 32,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0054/payload.bin",
+    "offset": 2855200,
+    "sourceName": "D:\\petton\\svn/petton_data/stage/leveltools_2/LT_petton/sourceimages/hs_hanabira.tga",
+    "rgba": "blv-textures/f95fa492d172a0b7dab31fbbd43a2e8b64dd02447ef581e8d92e1298811af5d2.rgba"
+  },
+  "89": {
+    "width": 16,
+    "height": 128,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0041/payload.bin",
+    "offset": 3077172,
+    "sourceName": "D:/petton/svn/petton_data/objects/stageitem/fruit/textures/kuki.tga",
+    "rgba": "blv-textures/2c4c89452a4c683a6faa5a215aec8b421aa5c6ed01018d10440d8a5adba1a98b.rgba"
+  },
+  "90": {
+    "width": 32,
+    "height": 16,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0041/payload.bin",
+    "offset": 3077384,
+    "sourceName": "D:/petton/svn/petton_data/objects/stageitem/fruit/textures/leef.tga",
+    "rgba": "blv-textures/0d618915867cfd502758e093c5d0fac05342ec08dead78b3ad3728c8b827b2bc.rgba"
+  },
+  "91": {
+    "width": 32,
+    "height": 16,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0055/payload.bin",
+    "offset": 3253720,
+    "sourceName": "D:/petton/svn/petton_data/objects/stageitem/fruit/textures/leef_r.tga",
+    "rgba": "blv-textures/8c0b9aec261dbc3a100f68cdd03289a8fc9fdb57e32a8b38686eae6f4abd8f4c.rgba"
+  },
+  "92": {
+    "width": 64,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0041/payload.bin",
+    "offset": 3089324,
+    "sourceName": "D:/petton/svn/petton_data/objects/stageitem/fruit/textures/fruit.tga",
+    "rgba": "blv-textures/0fc242d3e68da38f8915b7182913f52318cf3e7c96838d13a0b279fe4c061dd8.rgba"
+  },
+  "93": {
+    "width": 64,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0041/payload.bin",
+    "offset": 3088620,
+    "sourceName": "D:/petton/svn/petton_data/objects/stageitem/fruit/textures/fruiteaten.tga",
+    "rgba": "blv-textures/b7b5f9f6658f11570b96b0556524a835c83c02136ed77a9949268707136667d9.rgba"
+  },
+  "94": {
+    "width": 32,
+    "height": 16,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0041/payload.bin",
+    "offset": 3139136,
+    "sourceName": "D:/petton/svn/petton_data/objects/stageitem/fruit/textures/leef.tga",
+    "rgba": "blv-textures/14912bbffee3f591b6dd47020648b6441b258a44620a027075bae9d2b0672a93.rgba"
+  },
+  "95": {
+    "width": 32,
+    "height": 16,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0047/payload.bin",
+    "offset": 3577020,
+    "sourceName": "D:/petton/svn/petton_data/objects/stageitem/fruit/textures/leef_r.tga",
+    "rgba": "blv-textures/7663a1da186c6048cb1a0f5840494e3c18e1acf88ff0dc0294096ecaa25914e4.rgba"
+  },
+  "96": {
+    "width": 64,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0041/payload.bin",
+    "offset": 2284200,
+    "sourceName": "D:\\petton\\svn/petton_data/stage/leveltools_2/LT_petton/sourceimages/hs_bg_mitsuba.tga",
+    "rgba": "blv-textures/b30a8960d9dc59cdcd6d026120fde24ffde0bf063fb491f945201e08b8714030.rgba"
+  },
+  "97": {
+    "width": 128,
+    "height": 128,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0041/payload.bin",
+    "offset": 1377276,
+    "sourceName": "D:/petton/svn/petton_data/objects/muimui/muimui_jump/sourceimages/muimui_jump.tip",
+    "rgba": "blv-textures/1e1fbe055414cfbcaa40c7feaf0035a9c74e5969b11216a22aab620e812bb239.rgba"
+  },
+  "98": {
+    "width": 64,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0041/payload.bin",
+    "offset": 1550864,
+    "sourceName": "D:/petton/svn/petton_data/objects/muimui/muimuisleep/sourceimages/muimui_kemuri.tip",
+    "rgba": "blv-textures/8e10777226506eeb811a18942fcf3b0f72347bcbb40657d7ea122a0327e25653.rgba"
+  },
+  "99": {
+    "width": 64,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0041/payload.bin",
+    "offset": 3150948,
+    "sourceName": "D:\\petton\\svn/petton_data/stage/leveltools_2/LT_petton/sourceimages/toge_anim1.tga",
+    "rgba": "blv-textures/68582de8a582b7b28f2448ed00a9321ee06ca265fca42c9ea70732a8415738f7.rgba"
+  },
+  "100": {
+    "width": 64,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0041/payload.bin",
+    "offset": 3151084,
+    "sourceName": "D:/petton/svn/petton_data/stage/leveltools_2/LT_petton/sourceimages/toge_anim2.tga",
+    "rgba": "blv-textures/b6e5cd041272f46b5f9a02ae19f9a9049cbb1a7e38937b14563db11820481d0c.rgba"
+  },
+  "101": {
+    "width": 64,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0041/payload.bin",
+    "offset": 3151220,
+    "sourceName": "D:/petton/svn/petton_data/stage/leveltools_2/LT_petton/sourceimages/toge_anim3.tga",
+    "rgba": "blv-textures/218a588810492126a5365009b01d1ab190b08c6e6c78d54f4b4186dc3ae845e3.rgba"
+  },
+  "102": {
+    "width": 64,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0041/payload.bin",
+    "offset": 3151356,
+    "sourceName": "D:/petton/svn/petton_data/stage/leveltools_2/LT_petton/sourceimages/toge_anim4.tga",
+    "rgba": "blv-textures/ab6cd25b3c6578540f4742bb83e99158a58609c5373e841e45add49ab7b2331e.rgba"
+  },
+  "103": {
+    "width": 64,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0041/payload.bin",
+    "offset": 3151492,
+    "sourceName": "D:/petton/svn/petton_data/stage/leveltools_2/LT_petton/sourceimages/toge_anim5.tga",
+    "rgba": "blv-textures/2251892387199b1125e7631853a9a4b814457dbe5c47ca5d8b63efd85ce55dff.rgba"
+  },
+  "104": {
+    "width": 32,
+    "height": 16,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0041/payload.bin",
+    "offset": 3087296,
+    "sourceName": "D:/petton/svn/petton_data/objects/stageitem/fruit/textures/leef.tga",
+    "rgba": "blv-textures/ad8d4ac6bd6cf2236e5e12cb485bd925e877b41dc05c5e517507a231caec665a.rgba"
+  },
+  "105": {
+    "width": 32,
+    "height": 16,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0041/payload.bin",
+    "offset": 3087180,
+    "sourceName": "D:/petton/svn/petton_data/objects/stageitem/fruit/textures/leef_r.tga",
+    "rgba": "blv-textures/cced315f6e96efae12ca3a374fba395902287900f800b17c09509aa1cfff0361.rgba"
+  },
+  "106": {
+    "width": 128,
+    "height": 128,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0071/payload.bin",
+    "offset": 2604028,
+    "sourceName": "D:/petton/svn/petton_data/stage/st_flower01/sourceimages/sk_hana_roll.tga",
+    "rgba": "blv-textures/ea8480decb2c96aab1a2acf0499ca2630d7e1c714a5e869830b7a3324f8a7254.rgba"
+  },
+  "107": {
+    "width": 64,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0071/payload.bin",
+    "offset": 2603896,
+    "sourceName": "D:/petton/svn/petton_data/stage/st_flower01/sourceimages/sk_hana_roll_maru.tga",
+    "rgba": "blv-textures/c602c4df29ed13421ceab7db955590690599dc5c191c19c6d83a1459ee238ee5.rgba"
+  },
+  "108": {
+    "width": 256,
+    "height": 256,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0041/payload.bin",
+    "offset": 2283916,
+    "sourceName": "D:\\petton\\svn/petton_data/stage/leveltools_2/LT_petton/sourceimages/hs_bg_cloud01.tga",
+    "rgba": "blv-textures/b8e58939304c866e57d8ce42c0f7bdb51645ed7feca6c0eb9468f0018b6c8561.rgba"
+  },
+  "109": {
+    "width": 64,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0041/payload.bin",
+    "offset": 2284060,
+    "sourceName": "D:\\petton\\svn/petton_data/stage/leveltools_2/LT_petton/sourceimages/hs_bg_grass_a.tga",
+    "rgba": "blv-textures/363d4eada2716b15d7c1f0c6be5bd8041d5c1f10788ab3fffac53732cf9159bc.rgba"
+  },
+  "110": {
+    "width": 128,
+    "height": 256,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0071/payload.bin",
+    "offset": 2601820,
+    "sourceName": "D:\\petton\\svn/petton_data/stage/leveltools_2/LT_petton/sourceimages/hs_bg_plant_hand.tga",
+    "rgba": "blv-textures/a8c020be279cb97d2faddf1adebf6aaf40d0ae501ed03ccfc547e5d9bbe9fc3c.rgba"
+  },
+  "111": {
+    "width": 128,
+    "height": 256,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0050/payload.bin",
+    "offset": 2380024,
+    "sourceName": "D:\\petton\\svn/petton_data/stage/leveltools_2/LT_petton/sourceimages/hs_bg_shida.tga",
+    "rgba": "blv-textures/1c662214e7d272a808b6a0bde6a185d6fe4ba7dcc1a459852b941e85ed3b0eda.rgba"
+  },
+  "112": {
+    "width": 256,
+    "height": 256,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4595048,
+    "sourceName": "D:\\petton\\Svn/petton_data/stage/leveltools_2/LT_petton/sourceimages/hs_bg_sigemi.tga",
+    "rgba": "blv-textures/4e2a941ee7563542684fd576a29d06674fa4a302cd434924019a1f6399e13423.rgba"
+  },
+  "113": {
+    "width": 256,
+    "height": 256,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0049/payload.bin",
+    "offset": 3414616,
+    "sourceName": "D:/petton/svn/petton_data/objects/stagedemo/frogfamily/sourceimages/hs_bg_tree.tga",
+    "rgba": "blv-textures/45a10c55c55458cf8e95e85902cdf6494fc32c91101ed0c941ac5f7cb155f0d3.rgba"
+  },
+  "114": {
+    "width": 64,
+    "height": 128,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0041/payload.bin",
+    "offset": 2284484,
+    "sourceName": "D:\\petton\\svn/petton_data/stage/leveltools_2/LT_petton/sourceimages/hs_bg_warabi.tga",
+    "rgba": "blv-textures/0a411c82f9dd1047450ca88254cf7ba34c718c3bfee9eeefc05147e1fc19539b.rgba"
+  },
+  "124": {
+    "width": 64,
+    "height": 256,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4595732,
+    "sourceName": "D:\\petton\\Svn/petton_data/stage/leveltools_2\\LT_petton\\sourceimages\\kaze_w01.tga",
+    "rgba": "blv-textures/d77901850220be5cba45bca230933ae6231bb5fe0b299247be60be6101ac58f1.rgba"
+  },
+  "125": {
+    "width": 64,
+    "height": 256,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4596004,
+    "sourceName": "D:\\petton\\Svn/petton_data/stage/leveltools_2\\LT_petton\\sourceimages\\kaze_w03.tga",
+    "rgba": "blv-textures/ee1f3e91fab19bfffb9fd1ca9517384a2d78dead0227280303ad6ab404454027.rgba"
+  },
+  "126": {
+    "width": 64,
+    "height": 256,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4595868,
+    "sourceName": "D:\\petton\\Svn/petton_data/stage/leveltools_2\\LT_petton\\sourceimages\\kaze_w02.tga",
+    "rgba": "blv-textures/89cac026a9d2463735c1fc2c1e87135ac8863d9897c8f16d2282dbe367f34c29.rgba"
+  },
+  "127": {
+    "width": 32,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4128952,
+    "sourceName": "D:/petton/svn/petton_data/objects/locohouse/locohouse_parts/sourceimages/menumuimui.tip",
+    "rgba": "blv-textures/eb08418abe5a4e809fbc998b072176af0aff78b33f1562360734fe2e8a550c5d.rgba"
+  },
+  "128": {
+    "width": 64,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4128824,
+    "sourceName": "D:/petton/svn/petton_data/objects/locohouse/locohouse_parts/sourceimages/menumuimui_idle.tip",
+    "rgba": "blv-textures/b331337469e5a65e455ee8c97a9610fa9d45cf8167c5105fd0115e2fb387ce87.rgba"
+  },
+  "129": {
+    "width": 256,
+    "height": 256,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4597180,
+    "sourceName": "D:/petton/svn/petton_data/stage/title_shop/sourceimages/sk_yajirushi_anim1.tga",
+    "rgba": "blv-textures/e6d5ad999a3254cca05a94588a22cc209729d0ec74037a5bee722dcd1628cf8f.rgba"
+  },
+  "134": {
+    "width": 256,
+    "height": 256,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4599084,
+    "sourceName": "D:/petton/svn/petton_data/stage/title_shop/sourceimages/title_kana_loco_red.tga",
+    "rgba": "blv-textures/eb1f841931fb82fdf2e4e340ffbadced533996893a7eb72ca2fa7cc1989db57f.rgba"
+  },
+  "135": {
+    "width": 256,
+    "height": 256,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4599220,
+    "sourceName": "D:/petton/svn/petton_data/stage/title_shop/sourceimages/title_kana_loco.tga",
+    "rgba": "blv-textures/30db505db2a8a9ee15e422e0ff36eda5936ecc8ecb08f762a552a353e69f505a.rgba"
+  },
+  "136": {
+    "width": 128,
+    "height": 128,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4598268,
+    "sourceName": "D:/petton/svn/petton_data/stage/title_shop/sourceimages/title_hana_all_brack.tga",
+    "rgba": "blv-textures/6d7487d89e9fa9a142573fcc4ef7f7a9d7e6a1680a1f982091de17ad1761951b.rgba"
+  },
+  "137": {
+    "width": 256,
+    "height": 256,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4599352,
+    "sourceName": "D:/petton/svn/petton_data/stage/title_shop/sourceimages/title_lo_ims.tga",
+    "rgba": "blv-textures/569bc1d5c33a84f5ef104e97104f03ae1ea14269dfe16757a0930a0fb90fcf4b.rgba"
+  },
+  "138": {
+    "width": 128,
+    "height": 256,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4598548,
+    "sourceName": "D:/petton/svn/petton_data/stage/title_shop/sourceimages/title_hana_left.tga",
+    "rgba": "blv-textures/36ada0f5590ac767b328bc3a5fcf4dc2e798dd1122d7dfea975536f223c9a03c.rgba"
+  },
+  "139": {
+    "width": 128,
+    "height": 128,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4598136,
+    "sourceName": "D:/petton/svn/petton_data/stage/title_shop/sourceimages/title_futaba_2.tga",
+    "rgba": "blv-textures/8de857fe212c76a64baee0fcfe8f6f8e20ec2699a9868e6440c40e5d98c3997f.rgba"
+  },
+  "140": {
+    "width": 256,
+    "height": 256,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4599484,
+    "sourceName": "D:/petton/svn/petton_data/stage/title_shop/sourceimages/title_loco_ims.tga",
+    "rgba": "blv-textures/aa6f2666ef9a6bc3e98566a7eeb6d2af4be8de9207441aeef379274e9f81f602.rgba"
+  },
+  "141": {
+    "width": 256,
+    "height": 256,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4599616,
+    "sourceName": "D:/petton/svn/petton_data/stage/title_shop/sourceimages/title_locoro_ims.tga",
+    "rgba": "blv-textures/c214fae182a1afe1b242d1b48d30066c7b39bd95f3d244e4042aa86802142bdd.rgba"
+  },
+  "142": {
+    "width": 128,
+    "height": 128,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4598816,
+    "sourceName": "D:/petton/svn/petton_data/stage/title_shop/sourceimages/title_hana_shot2.tga",
+    "rgba": "blv-textures/47b382879d22bb8f08c0f70f52234d7042bdfb4ca326fecf772ff99b37b35e60.rgba"
+  },
+  "143": {
+    "width": 128,
+    "height": 256,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4598680,
+    "sourceName": "D:/petton/svn/petton_data/stage/title_shop/sourceimages/title_hana_right.tga",
+    "rgba": "blv-textures/ea965fc28537f84655f62bafbf3a3c6ebba87453ad860a5cf930c2dcd1f23763.rgba"
+  },
+  "144": {
+    "width": 256,
+    "height": 256,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4599752,
+    "sourceName": "D:/petton/svn/petton_data/stage/title_shop/sourceimages/title_locoroco_ims.tga",
+    "rgba": "blv-textures/3fa3d72b851a9d0c6fd771acdd7ef6137a0ca0ea6513289203d2691f34058752.rgba"
+  },
+  "145": {
+    "width": 128,
+    "height": 128,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4598952,
+    "sourceName": "D:/petton/svn/petton_data/stage/title_shop/sourceimages/title_hana_shot.tga",
+    "rgba": "blv-textures/cbd7e8ab981a992b7ad2d97f73da0870d07d19577c40f6e2d18df6e89d128bf8.rgba"
+  },
+  "151": {
+    "width": 256,
+    "height": 256,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4597316,
+    "sourceName": "D:/petton/svn/petton_data/stage/title_shop/sourceimages/sk_yajirushi_anim2.tga",
+    "rgba": "blv-textures/818d789c7dc371f988a024b086a72e4e07c117adfda25b794ad4e1bd14cf661a.rgba"
+  },
+  "152": {
+    "width": 256,
+    "height": 256,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4597452,
+    "sourceName": "D:/petton/svn/petton_data/stage/title_shop/sourceimages/sk_yajirushi_anim3.tga",
+    "rgba": "blv-textures/2c74c82a816f2a27f9e9ead8fe4611bc7a3e2a06b2f0e2303eed2e079c21c623.rgba"
+  },
+  "153": {
+    "width": 128,
+    "height": 128,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4596500,
+    "sourceName": "D:/petton/svn/petton_data/stage/title_shop/sourceimages/sk_bg_cloud_purple_s.tga",
+    "rgba": "blv-textures/86eda46c374e4c31543caed39325afbd0e8d4068ed3f76c72f9b827e3a27cf96.rgba"
+  },
+  "154": {
+    "width": 64,
+    "height": 64,
+    "kind": "BLV",
+    "source": "native/DATA.BIN/0024/payload.bin",
+    "offset": 4600160,
+    "sourceName": "D:/petton/svn/petton_data/stage/title_shop/sourceimages/tm.tga",
+    "rgba": "blv-textures/ad82e7f66d28bd8261cc959115e65073e59c1ccded268708224920188d8677fa.rgba"
+  },
+  "17": {
+    "width": 144,
+    "height": 24,
+    "kind": "TIMP",
+    "source": "native/DATA.BIN/0000/ico_locoroco_all.tip",
+    "png": "textures/DATA.BIN/0000/ico_locoroco_all.png",
+    "verified_crop": [
+      0,
+      0,
+      24,
+      24
+    ],
+    "scope": "Only the crop used by the Wii renderer"
+  }
+}

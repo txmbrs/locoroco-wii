@@ -1,0 +1,82 @@
+#pragma once
+#include "AssetArray.hpp"
+#include "Renderer.hpp"
+namespace SceneSprites {
+
+extern const uint8_t* PICKIE_DATA;
+extern Renderer::Sprite PICKIE;
+extern const uint8_t* FRUIT_DATA;
+extern Renderer::Sprite FRUIT;
+extern const uint8_t* BUD_DATA;
+extern Renderer::Sprite BUD;
+extern const uint8_t* STEM_DATA;
+extern Renderer::Sprite STEM;
+extern const uint8_t* LEAF_DATA;
+extern Renderer::Sprite LEAF;
+extern const uint8_t* LEAF_RED_DATA;
+extern Renderer::Sprite LEAF_RED;
+extern const uint8_t* WIND_PARTICLES_DATA;
+extern Renderer::Sprite WIND_PARTICLES;
+extern const uint8_t* GOAL_FLOWER_DATA;
+extern Renderer::Sprite GOAL_FLOWER;
+extern const uint8_t* FLOATING_FLOWER_DATA;
+extern Renderer::Sprite FLOATING_FLOWER;
+extern const uint8_t* PURPLE_FLOWER_HEAD_DATA;
+extern Renderer::Sprite PURPLE_FLOWER_HEAD;
+extern const uint8_t* PURPLE_FLOWER_LEAVES_DATA;
+extern Renderer::Sprite PURPLE_FLOWER_LEAVES;
+extern const uint8_t* PICKIE_BODY_DATA;
+extern Renderer::Sprite PICKIE_BODY;
+extern const uint8_t* PICKIE_WINGS_DATA;
+extern Renderer::Sprite PICKIE_WINGS;
+extern const uint8_t* HUD_HEAD_DATA;
+extern Renderer::Sprite HUD_HEAD;
+extern const uint8_t* HUD_DIGIT0_DATA;
+extern Renderer::Sprite HUD_DIGIT0;
+extern const uint8_t* HUD_DIGIT1_DATA;
+extern Renderer::Sprite HUD_DIGIT1;
+extern const uint8_t* HUD_DIGIT2_DATA;
+extern Renderer::Sprite HUD_DIGIT2;
+extern const uint8_t* HUD_DIGIT3_DATA;
+extern Renderer::Sprite HUD_DIGIT3;
+extern const uint8_t* HUD_DIGIT4_DATA;
+extern Renderer::Sprite HUD_DIGIT4;
+extern const uint8_t* HUD_DIGIT5_DATA;
+extern Renderer::Sprite HUD_DIGIT5;
+extern const uint8_t* HUD_DIGIT6_DATA;
+extern Renderer::Sprite HUD_DIGIT6;
+extern const uint8_t* HUD_DIGIT7_DATA;
+extern Renderer::Sprite HUD_DIGIT7;
+extern const uint8_t* HUD_DIGIT8_DATA;
+extern Renderer::Sprite HUD_DIGIT8;
+extern const uint8_t* HUD_DIGIT9_DATA;
+extern Renderer::Sprite HUD_DIGIT9;
+extern const uint8_t* MUI_DATA;
+extern Renderer::Sprite MUI;
+extern const uint8_t* MUI_SMILE_DATA;
+extern Renderer::Sprite MUI_SMILE;
+extern const uint8_t* TEXT0_DATA;
+extern Renderer::Sprite TEXT0;
+extern const uint8_t* TEXT1_DATA;
+extern Renderer::Sprite TEXT1;
+extern const uint8_t* TEXT2_DATA;
+extern Renderer::Sprite TEXT2;
+extern Renderer::Sprite TEXT3;
+extern Renderer::Sprite HINT1;
+extern Renderer::Sprite HINT2;
+extern Renderer::Sprite HINT3;
+extern Renderer::Sprite HINT4;
+extern Renderer::Sprite HINT5;
+extern Renderer::Sprite HINT6;
+
+extern const uint8_t* MUI_NPC_DATA;
+extern Renderer::Sprite MUI_NPC;
+extern const uint8_t* MUI_EGG_DATA;
+extern Renderer::Sprite MUI_EGG;
+extern const uint8_t* MUI_REWARD_TEXT_DATA;
+extern Renderer::Sprite MUI_REWARD_TEXT;
+extern const uint8_t* HOUSE_PART9_DATA;
+extern Renderer::Sprite HOUSE_PART9;
+extern const uint8_t* HOUSE_PART_TITLE_DATA;
+extern Renderer::Sprite HOUSE_PART_TITLE;
+}
