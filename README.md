@@ -1,6 +1,6 @@
 # LocoRoco Wii — Preview
 
-A fan-made demonstration port of the first level of LocoRoco for Wii. Game data is generated locally by a converter using your own copy of LocoRoco for PSP. This repository does not contain a game image or any extracted game assets.
+A fan-made for testing purpose port of the of LocoRoco for Wii. Game data is generated locally by a converter using your own copy of LocoRoco for PSP. This repository does not contain a game image or any extracted game assets.
 
 ## Installation
 
@@ -9,8 +9,6 @@ A fan-made demonstration port of the first level of LocoRoco for Wii. Game data 
 3. Copy `output/apps/LocoRocoWii` to the `apps` folder on your Wii SD card and launch the application through the Homebrew Channel.
 
 The previous converter build was checked with the European release (UCES00304). The rebuilt English executable, other regions and Wii playback have not been verified.
-
-The physics code and some scenes are adaptations rather than a recreation of the original PSP engine.
 
 Do not publicly distribute the generated `output` folder, as it contains game data.
 
@@ -43,4 +41,4 @@ The project uses Box2D, libogc/libfat/WiiUse, as well as vgmstream and FFmpeg to
 
 One of the project's inspirations and earlier foundations was the Lua remake [dispensablegames/locoroco](https://github.com/dispensablegames/locoroco).
 
-LocoRoco and all associated game assets belong to their respective owners. This is an unofficial fan project and is not affiliated with or endorsed by the rights holders.
+LocoRoco and all associated game assets belong to their respective owners. This is an unofficial fan project and is not affiliated with or endorsed by the rights holders. Created just for testing purpose.
