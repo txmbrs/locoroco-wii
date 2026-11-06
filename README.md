@@ -1,44 +1,43 @@
-# LocoRoco Wii — preview
+# LocoRoco Wii — Preview
 
-Fanowski port demonstracyjny pierwszego poziomu na Wii. Dane gry są generowane
-lokalnie przez konwerter z własnej kopii LocoRoco na PSP. Repozytorium nie
-zawiera obrazu gry ani wyodrębnionych z niego zasobów.
+An unofficial first-level preview for Wii. A Windows converter builds the game
+data locally from your own copy of LocoRoco for PSP. This repository does not
+include a game image or extracted game assets.
 
-## Instalacja
+## Installation
 
-1. Pobierz paczkę konwertera z zakładki Releases i rozpakuj ją na Windows.
-2. Umieść obok `KONWERTUJ.bat` jedną własną kopię gry PSP jako ISO, CSO v1
-   lub folder `PSP_GAME` i uruchom `KONWERTUJ.bat`.
-3. Skopiuj `output/apps/LocoRocoWii` do folderu `apps` na karcie SD Wii i
-   uruchom aplikację przez Homebrew Channel.
+1. Download and extract the converter package from [Releases](../../releases).
+2. Place one LocoRoco 1 PSP ISO, CSO v1, or `PSP_GAME` folder next to
+   `CONVERT.bat` and run the batch file. You can also drag an image onto it.
+3. Copy `output/apps/LocoRocoWii` to the `apps` folder on your Wii SD card or
+   USB drive, and launch the game through the Homebrew Channel.
 
-Preview oparto na europejskiej wersji UCES00304; inne regiony nie są potwierdzone.
-Kod fizyki i niektóre sceny są adaptacją, a nie odzyskanym silnikiem PSP.
-Nie udostępniaj publicznie wygenerowanego folderu `output`, który zawiera dane gry.
+The previous converter build was checked with the European UCES00304 edition.
+The rebuilt English executable, other editions and this package's Wii playback
+have not been verified. The physics and some
+scenes are Wii adaptations, not the recovered PSP engine. The generated `output`
+folder contains data from your game copy; please do not redistribute it.
 
-## Budowanie silnika Wii
+## Building the Wii engine
 
-Wymagane jest środowisko devkitPro z devkitPPC, libogc, libfat i Box2D 2.4.1.
-Oryginalna kompilacja używała libogc 2.6.0, libfat-ogc 1.2.0 i devkitPPC r45.
-Przykład z CMake w środowisku devkitPro:
+Install devkitPro with devkitPPC, libogc, libfat and Box2D 2.4.1. The existing
+build used libogc 2.6.0, libfat-ogc 1.2.0 and devkitPPC r45:
 
 ```sh
 cmake -S wii -B build-wii -DCMAKE_TOOLCHAIN_FILE="$DEVKITPRO/cmake/Wii.cmake" -DCMAKE_BUILD_TYPE=Release
 cmake --build build-wii
 ```
 
-Silnik uruchamia się z danymi utworzonymi przez konwerter; sam kod źródłowy
-nie zawiera poziomu ani grafiki i dźwięków gry.
+The engine needs data produced by the converter. The source tree does not
+include the game level, graphics or audio.
 
-## Źródła i licencje
+## Sources and licensing
 
-`wii/` zawiera kod silnika, a `converter/` kod importera i parser. Informacje
-o bibliotekach oraz ich licencje znajdują się w `converter/licenses/` i
-`converter/native_parser/`. Licencja MIT w `converter/LICENSE` dotyczy importera.
-Stan prawny i pochodzenie pozostałego kodu silnika opisuje
-`converter/licenses/WII-I-DEKODERY/POCHODZENIE-2026-11-05.md`.
-Wykorzystano bibliotekę Box2D, libogc/libfat/WiiUse oraz narzędzia vgmstream
-i FFmpeg. Jedną z inspiracji i wcześniejszych baz projektu był remake Lua
-[dispensablegames/locoroco](https://github.com/dispensablegames/locoroco).
-LocoRoco i materiały gry należą do ich odpowiednich właścicieli. Projekt jest
-nieoficjalny i niezwiązany z właścicielami marki.
+`wii/` contains the Wii engine and `converter/` the importer and parser. See
+`converter/THIRD_PARTY_NOTICES.md` and `converter/licenses/` for provenance and
+third-party license notices. The MIT license in `converter/LICENSE` applies to
+the importer; the licensing and provenance of the entire engine remain to be
+established. An earlier reference was the [dispensablegames Lua remake](https://github.com/dispensablegames/locoroco).
+
+LocoRoco and its original game assets belong to their respective owners. This is
+an unofficial project and is not affiliated with the rights holders.

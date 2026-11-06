@@ -14,9 +14,9 @@ def finish(output,resources,home,node):
     (output/'import-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf8')
     level_index=json.loads((output/'blv-textures.json').read_text(encoding='utf-8'))
     levels=[x for x in level_index['levels'] if 'st_flower01.dlk' in x['names']]
-    if len(levels)!=1:raise FormatError('Nie znaleziono jednoznacznie mapy st_flower01 w tej kopii PSP.')
+    if len(levels)!=1:raise FormatError('Could not uniquely identify st_flower01 in this PSP copy.')
     map_dir=output/'map-export/st_flower01'
-    emit('Konwersja oryginalnej mapy PSP do osobnego pliku Wii...')
+    emit('Converting the original PSP map to a Wii data file...')
     subprocess.run([str(node),'--disable-warning=ExperimentalWarning','--experimental-transform-types',
         str(RESOURCES/'native_parser/export_map.mjs'),str(output/levels[0]['source']),str(map_dir)],check=True)
     from build_native_level import build
@@ -27,12 +27,12 @@ def finish(output,resources,home,node):
     report['map_ready']=True
     report['map_file']=map_file.relative_to(output).as_posix()
     report['map_format']=map_report['map_format']
-    emit('Generowanie pozostalych grafik, efektow i muzyki z plikow PSP...')
+    emit('Generating graphics, sound effects, and music from PSP files...')
     from preview_assets import build as build_assets
     app=output/'apps/LocoRocoWii'
     build_assets(output,app,RESOURCES,HOME/'tools')
     chars=[x for x in level_index['levels'] if x['source'].replace('\\','/').endswith('/petton.blv')]
-    if len(chars)!=1:raise FormatError('Nie znaleziono jednoznacznie banku animacji Kulche.')
+    if len(chars)!=1:raise FormatError('Could not uniquely identify the Kulche animation bank.')
     char_dir=output/'map-export/kulche'
     subprocess.run([str(node),'--disable-warning=ExperimentalWarning','--experimental-transform-types',
         str(RESOURCES/'native_parser/export_map.mjs'),str(output/chars[0]['source']),str(char_dir)],check=True)
@@ -47,7 +47,7 @@ def finish(output,resources,home,node):
 
     template=RESOURCES/'wii'
     for name in ('boot.dol','meta.xml'):
-        if not (template/name).is_file():raise FormatError('Brak silnika Wii w konwerterze: '+name)
+        if not (template/name).is_file():raise FormatError('Missing Wii engine file in converter: '+name)
         shutil.copy2(template/name,app/name)
     (app/'assets/locoroco.pak').unlink(missing_ok=True)
     report['wii_ready']=True
@@ -58,7 +58,7 @@ def finish(output,resources,home,node):
     (output/'wii-preview-ready.json').write_text(json.dumps({'app':app.relative_to(output).as_posix(),
         'source_sha256':source_hash,'scope':report['scope']},indent=2),encoding='utf8')
     (output/'import-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
-    emit(f'Mapa Wii zapisana: {map_file}')
+    emit(f'Wii map saved: {map_file}')
     return app
 
 if __name__=='__main__':

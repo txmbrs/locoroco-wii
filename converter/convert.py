@@ -38,8 +38,8 @@ def select_source(argument):
             elif (p/'PSP_GAME/PARAM.SFO').is_file():candidates.append(p)
     candidates=sorted(set(candidates))
     if len(candidates)!=1:
-        raise FormatError('Umiesc jedna kopie gry (.iso, .cso lub folder PSP_GAME) obok konwertera. '
-                          f'Znaleziono: {len(candidates)}. Mozesz tez przeciagnac plik na KONWERTUJ.bat.')
+        raise FormatError('Place one game copy (.iso, .cso, or PSP_GAME folder) next to the converter. '
+                          f'Found: {len(candidates)}. You can also drag a file onto CONVERT.bat.')
     return candidates[0]
 
 def extract_disc(source,work):
@@ -47,12 +47,12 @@ def extract_disc(source,work):
         root=source if source.name.upper()!='PSP_GAME' else source.parent
         info=sfo((root/'PSP_GAME/PARAM.SFO').read_bytes())
         data=root/'PSP_GAME/USRDIR/data'
-        if not data.is_dir():raise FormatError('Brak PSP_GAME/USRDIR/data')
+        if not data.is_dir():raise FormatError('Missing PSP_GAME/USRDIR/data')
         return info,data
     disc=Disc(source)
     try:
         entries=list(disc.entries());names={name.upper():(name,offset,size) for name,offset,size in entries}
-        if 'PSP_GAME/PARAM.SFO' not in names:raise FormatError('Nie jest to kopia gry PSP')
+        if 'PSP_GAME/PARAM.SFO' not in names:raise FormatError('This is not a PSP game image')
         _,offset,size=names['PSP_GAME/PARAM.SFO'];info=sfo(disc.read(offset,size))
         validate_title(info)
         selected=[x for x in entries if x[0].upper().startswith('PSP_GAME/USRDIR/DATA/')
@@ -71,8 +71,8 @@ def extract_disc(source,work):
 def validate_title(info):
     title=info.get('TITLE','');disc=info.get('DISC_ID','')
     if 'locoroco' not in title.lower().replace(' ','') or '2' in title:
-        raise FormatError(f'Oczekiwano LocoRoco 1 PSP, otrzymano {title!r} ({disc})')
-    if not disc:raise FormatError('Brak identyfikatora gry w PARAM.SFO')
+        raise FormatError(f'Expected LocoRoco 1 for PSP; found {title!r} ({disc})')
+    if not disc:raise FormatError('Missing game ID in PARAM.SFO')
 
 def unpack_members(path,destination,manifest):
     with path.open('rb') as file, mmap.mmap(file.fileno(),0,access=mmap.ACCESS_READ) as data:
@@ -82,17 +82,17 @@ def unpack_members(path,destination,manifest):
             if start<0:break
             if start%2048:
                 offset=start+4;continue
-            emit(f'  {path.name}: archiwum {number+1}, offset 0x{start:x}')
+            emit(f'  {path.name}: archive {number+1}, offset 0x{start:x}')
             payload,end=gprs(data,start)
             folder=destination/f'{number:04d}'
             extract_payload(payload,folder,manifest,f'{path.name}@{start:x}')
             number+=1;offset=end
         if not number:
             if bytes(data[:4])==b'GARC':extract_payload(data,destination/'0000',manifest,path.name)
-            else:raise FormatError(f'Brak rozpoznanego archiwum GPRS/GARC w {path.name}')
+            else:raise FormatError(f'No recognized GPRS/GARC archive in {path.name}')
 
 def extract_payload(data,folder,manifest,origin,depth=0):
-    if depth>8:raise FormatError('Zbyt wiele zagniezdzonych archiwow')
+    if depth>8:raise FormatError('Too many nested archives')
     if bytes(data[:4])!=b'GARC':
         # DATA.BIN also holds compressed standalone banks and stage bundles.
         folder.mkdir(parents=True,exist_ok=True);target=folder/'payload.bin'
@@ -104,7 +104,7 @@ def extract_payload(data,folder,manifest,origin,depth=0):
     for index,(name,raw) in enumerate(entries):
         target=folder/safe_name(name)
         target.parent.mkdir(parents=True,exist_ok=True)
-        if target.exists() and target.read_bytes()!=raw:raise FormatError(f'Powtorzona nazwa w archiwum: {name}')
+        if target.exists() and target.read_bytes()!=raw:raise FormatError(f'Duplicate archive filename: {name}')
         target.write_bytes(raw)
         manifest.append({'path':target.as_posix(),'origin':origin,'name':name,'size':len(raw),
                          'magic':raw[:4].hex(),'sha256':hashlib.sha256(raw).hexdigest()})
@@ -115,7 +115,7 @@ def extract_payload(data,folder,manifest,origin,depth=0):
 def run(source,output):
     output=Path(output).resolve()
     protected=source if source.is_file() or source.name.upper()=='PSP_GAME' else source/'PSP_GAME'
-    if output==protected or protected in output.parents:raise FormatError('Wyjscie pokrywa sie ze zrodlem')
+    if output==protected or protected in output.parents:raise FormatError('Output overlaps the source')
     output.mkdir(parents=True,exist_ok=True)
     (output/'wii-preview-ready.json').unlink(missing_ok=True)
     work=output/'work';work.mkdir(exist_ok=True)
@@ -123,15 +123,15 @@ def run(source,output):
     source_hash=fingerprint(hash_source)
     marker=work/'source.json'
     if marker.exists() and json.loads(marker.read_text())['sha256']!=source_hash:
-        raise FormatError('Folder output zawiera inna kopie gry. Wybierz nowy folder przez --output.')
+        raise FormatError('The output folder contains a different game copy. Choose a new folder with --output.')
     marker.write_text(json.dumps({'sha256':source_hash}),encoding='utf-8')
-    emit(f'Kopia gry: {source.name}')
+    emit(f'Game copy: {source.name}')
     info,data=extract_disc(source,work);validate_title(info)
-    emit(f"Rozpoznano: {info['TITLE']} / {info['DISC_ID']}")
+    emit(f"Detected: {info['TITLE']} / {info['DISC_ID']}")
     manifest=[]
     # Only original archives, never the old developer .dec or texture dumps.
     archives=[p for p in data.iterdir() if p.is_file() and p.name.lower() in ('data.bin','first_eu.arc','first_us.arc','first_jp.arc')]
-    if not any(p.name.lower()=='data.bin' for p in archives):raise FormatError('Brak DATA.BIN')
+    if not any(p.name.lower()=='data.bin' for p in archives):raise FormatError('Missing DATA.BIN')
     for path in archives:unpack_members(path,output/'native'/path.name,manifest)
     for item in manifest:item['path']=str(Path(item['path']).relative_to(output)).replace('\\','/')
     report={'format':1,'disc':info,'source_name':source.name,'source_sha256':source_hash,
@@ -140,31 +140,31 @@ def run(source,output):
                          'Complete native UI and audio conversion',
                          'PSP signal/event handlers in the Wii engine']}
     (output/'import-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
-    emit(f'Rozpakowano {len(manifest)} plikow PSP do {output / "native"}.')
+    emit(f'Extracted {len(manifest)} PSP files to {output / "native"}.')
     from decode_textures import decode
     decode(output)
     node=HOME/'tools/node.exe'
     if not node.exists():
         found=shutil.which('node');node=Path(found) if found else None
     if node:
-        emit('Odczytywanie tekstur osadzonych w poziomach BLV/CLV...')
+        emit('Reading textures embedded in BLV/CLV levels...')
         subprocess.run([str(node),'--disable-warning=ExperimentalWarning','--experimental-transform-types',
             str(RESOURCES/'native_parser/extract.mjs'),str(output)],check=True)
         from finish_preview import finish
         finish(output,RESOURCES,HOME,node)
 
     else:
-        raise FormatError('Brak dolaczonego tools/node.exe. Wypakuj caly folder konwertera.')
-    emit('KONWERSJA DANYCH PREVIEW UKONCZONA. Wgraj caly output/apps/LocoRocoWii na karte Wii.')
+        raise FormatError('Missing tools/node.exe. Extract the complete converter folder.')
+    emit('PREVIEW CONVERSION COMPLETE. Copy output/apps/LocoRocoWii to your Wii storage.')
     return output
 
 def main():
-    parser=argparse.ArgumentParser(description='Lokalny importer LocoRoco PSP; nie pobiera ROM-ow ani assetow.')
+    parser=argparse.ArgumentParser(description='Local LocoRoco PSP importer; does not download game data.')
     parser.add_argument('source',nargs='?');parser.add_argument('--output',type=Path,default=HOME/'output')
     args=parser.parse_args()
     try:run(select_source(args.source),args.output)
     except (FormatError,OSError,ValueError,KeyError,IndexError,AssertionError,StopIteration,struct.error,subprocess.CalledProcessError) as error:
-        emit(f'BLAD: {error}');return 1
+        emit(f'ERROR: {error}');return 1
     return 0
 
 if __name__=='__main__':sys.exit(main())

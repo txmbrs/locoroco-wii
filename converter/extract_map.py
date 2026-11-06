@@ -15,7 +15,7 @@ def extract(source,index,output,name,node):
     candidates=[level for level in levels if name+'.dlk' in level['names']]
     if len(candidates)!=1:raise FormatError(f'Expected one original level {name}, found {len(candidates)}')
     member=next(item for item in report['files'] if item['path']==candidates[0]['source'])
-    print('Sprawdzanie sumy oryginalnego ISO...',flush=True)
+    print('Checking the original ISO checksum...',flush=True)
     checksum=fingerprint(source)
     if checksum!=report['source_sha256']:raise FormatError('ISO differs from the indexed original copy')
     archive,position=member['origin'].split('@');position=int(position,16)

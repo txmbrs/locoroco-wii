@@ -8,6 +8,6 @@ if exist "%~dp0LocoRocoImporter.exe" (
 )
 set "converter_exit=%errorlevel%"
 echo.
-if not "%converter_exit%"=="0" echo Konwersja nie zostala ukonczona. Przeczytaj komunikat powyzej.
+if not "%converter_exit%"=="0" echo Conversion did not finish. Please read the message above.
 pause
 exit /b %converter_exit%
